@@ -1,0 +1,53 @@
+.body{
+    margin: 0;
+}
+.background{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-right: outset 5px rgba(192, 192, 192, 0.42);
+    border-bottom: outset 3px rgba(192, 192, 192, 0.42);
+    border-top: outset 2px rgba(192, 192, 192, 0.42);
+}
+.fa-solid{
+    display: block;
+    color: rgba(164, 159, 159, 0.86);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.text1{
+    text-align: center;
+    margin-top: 25px;
+    color: #d26420;
+    font-family: "Droid Sans";
+    font-size: 20px;
+}
+.text2{
+height: 100px;
+text-align: center;
+font-size: 17px;
+font-family: Cambria, sans-serif;
+line-height: 27px;
+color: #6b6a6a;
+margin-top: 30px;
+}
+.locatetable {
+    height: 40px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px deepskyblue;
+    background: deepskyblue;
+    color: white;
+    margin: auto;
+}

@@ -1,0 +1,44 @@
+.body{
+    margin: 0;
+}
+.main{
+    height: 600px;
+    background: rgba(227, 195, 195, 0.53);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background: white;
+    border: solid 1px;
+}
+.text1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 23px;
+    font-family: Cambria;
+}
+.text2{
+    height: 160px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Cambria, sans-serif;
+    line-height: 27px;
+    color: #6b6a6a;
+    margin-top: 50px;
+}
+.table1{
+    height: 50px;
+    width: 200px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.locatetable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
