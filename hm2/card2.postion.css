@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.background{
+    height: 600px;
+    width: 500px;
+    background: #c0bbbb;
+    position: relative;
+}
+.inputbox{
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background: rgba(28, 7, 121, 0.84);
+    color: white;
+    margin: 20px 40px;
+    position: absolute;
+    padding: 10px 10px;
+}
+.topblue{
+    height: 260px;
+    background: rgba(28, 7, 121, 0.84);
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.threebox{
+    display: flex;
+    position: absolute;
+    top: 205px;
+}
+
+.box{
+    height: 90px;
+    width: 90px;
+    background: #af30e3;
+    margin: 10px;
+    border-radius: 5px;
+}
