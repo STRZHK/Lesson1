@@ -1,0 +1,86 @@
+.h90{
+    height: 90px;
+}
+.w90{
+    width: 90px;
+}
+.w180{
+    width: 200px;
+}
+.w115{
+    width: 115px;
+}
+.itemcolor{
+    background: #6964e1;
+}
+.border{
+    border-radius: 5px;
+}
+
+.marginbox{
+    margin: 10px;
+}
+.round{
+    border-radius: 50%;
+    margin-left: -200px;
+}
+.display{
+    display: flex;
+}
+.main{
+    background: #cdd7e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 2000px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.background{
+    height: 400px;
+    width: 500px;
+    background: #cdd7e0;
+    position: relative;
+}
+.inputbox{
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background: rgb(16, 43, 62);
+    color: white;
+    margin: 20px 40px;
+    position: absolute;
+    padding: 10px 10px;
+}
+.topblue{
+    height: 260px;
+    background: rgb(16, 43, 62);
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.threebox{
+    display: flex;
+    position: absolute;
+    top: 205px;
+}
+.textfooter{
+    margin-left: 50px;
+}
+.fotter{
+    margin-top: 40px
+}

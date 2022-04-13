@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    height: 900px;
+    width: 800px;
+    background: #c4afaf;
+}
+.logo_header{
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    background: #cc7027;
+}
+.header{
+    width: 70%;
+    height: 100px;
+    background: #af30e3;
+}
+.nav_bath_add{
+    display: flex;
+}
+.nav{
+    width: 100px;
+    height: 400px;
+    background: #5772b9;
+}
+.bath_add{
+    height: 200px;
+    width: 700px;
+    background: #fcf1a4;
+}

@@ -13,6 +13,7 @@
     width: 300px;
     background: white;
     border: solid 1px;
+    box-sizing: border-box;
 }
 .text1{
     text-align: center;
@@ -21,13 +22,17 @@
     font-family: Cambria;
 }
 .text2{
-    height: 160px;
-    text-align: center;
+    height: 150px;
+    width: 90%;
     font-size: 17px;
     font-family: Cambria, sans-serif;
     line-height: 27px;
     color: #6b6a6a;
-    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 6%;
 }
 .table1{
     height: 50px;
@@ -38,7 +43,8 @@
     justify-content: center;
 }
 .locatetable{
+    height: 120px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
