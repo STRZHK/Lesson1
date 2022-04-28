@@ -96,14 +96,14 @@
 // function min() {
 //     for (const argument of arguments) {
 //         if (argument[0] < argument[1] && argument[0] < argument[2]) {
-//             console.log(argument[0])
+//             return console.log(argument[0])
 //         } else if (argument[1] < argument[0] && argument[1] < argument[2]) {
-//             console.log(argument[1])
+//             return console.log(argument[1])
 //         } else if (argument[2] < argument[0] && argument[2] < argument[1]) {
-//             console.log(argument[2])
+//             return console.log(argument[2])
 //         }
 //         else {
-//             console.log(Nan)
+//             return console.log(Nan)
 //         }
 //     }
 // }
@@ -111,11 +111,12 @@
 // min(numbers)
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-
+//
 // function add(){
-//     for (const argument of arguments) {
-//         return argument[0] + argument[1] + argument[2];
+//     for (let i = 0; i < arguments.length; i++) {
+//         const argument = arguments[i];
+//         return argument[0] + argument[1] + argument[2] + argument[3];
 //     }
 // }
-// let a = [100, 200, 0];
+// let a = [100, 200, 50, 50];
 // console.log(add(a))
