@@ -54,14 +54,15 @@
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 
 // let fn = (array) => {
-//     for (let i = 0; i < array.length; i++) {
-//         const arrayElement = array[i];
-//         return console.log(array[2],array[1],array[0])
+//     let res = [];
+//     for (let i = array.length-1; i >= 0; i--) {
+//         let arrayElement = array[i];
+//         res.push(arrayElement)
 //     }
+//     return console.log(res);
 // }
-// let array = [1, 2, 3]
-// fn(array)
-
+// let array = [58, 484, 484,85,7, 654, 44,44];
+// fn(array);
 
 
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
@@ -147,7 +148,7 @@
 // fn(numbers);
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-
+//
 // let fn = (array) => {
 //     let sum = 0;
 //     for (const arrayElement of array) {
@@ -156,4 +157,4 @@
 //     return console.log(sum)
 // }
 // let a = [100, 200, 50, 50];
-// fn(a);
+// fn(a);//
