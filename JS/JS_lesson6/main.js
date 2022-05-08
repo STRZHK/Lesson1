@@ -45,27 +45,16 @@
 
 // let nums = [11,21,3];
 //
-// let sort = nums.sort((a ,b) => {
-//     if (a > b){
-//         return 1;
+// let sortNums = (arr,direction) => {
+//     if (direction === 'ascending'){
+//         arr.sort((a,b) => a - b);
 //     }
-//     if (a < b){
-//         return -1;
+//     if (direction === 'descending'){
+//         arr.sort((a,b) => b - a);
 //     }
-//     return 0;
-// })
-// console.log(sort)
-//
-// let sort1 = nums.sort((a,b) => {
-//     if (b > a) {
-//         return 1;
-//     }
-//     if (b < a) {
-//         return -1;
-//     }
-//     return 0;})
-// console.log(sort1);
-
+//     return arr;
+// }
+// console.log(sortNums(nums, 'descending'));
 
 // - є масив
 // let coursesAndDurationArray = [
@@ -106,74 +95,74 @@
 //     color:'', // 'red','black'
 // }
 
-let gameCards = [
-    {cardSuit: 'heart', value: '6', color: 'red'},
-    {cardSuit: 'heart', value: '7', color: 'red'},
-    {cardSuit: 'heart', value: '8', color: 'red'},
-    {cardSuit: 'heart', value: '9', color: 'red'},
-    {cardSuit: 'heart', value: '10', color: 'red'},
-    {cardSuit: 'heart', value: 'jack', color: 'red'},
-    {cardSuit: 'heart', value: 'queen', color: 'red'},
-    {cardSuit: 'heart', value: 'king', color: 'red'},
-    {cardSuit: 'heart', value: 'ace', color: 'red'},
-    {cardSuit: 'diamond', value: '6', color: 'red'},
-    {cardSuit: 'diamond', value: '7', color: 'red'},
-    {cardSuit: 'diamond', value: '8', color: 'red'},
-    {cardSuit: 'diamond', value: '9', color: 'red'},
-    {cardSuit: 'diamond', value: '10', color: 'red'},
-    {cardSuit: 'diamond', value: 'jack', color: 'red'},
-    {cardSuit: 'diamond', value: 'queen', color: 'red'},
-    {cardSuit: 'diamond', value: 'king', color: 'red'},
-    {cardSuit: 'diamond', value: 'ace', color: 'red'},
-    {cardSuit: 'spade', value: '6', color: 'black'},
-    {cardSuit: 'spade', value: '7', color: 'black'},
-    {cardSuit: 'spade', value: '8', color: 'black'},
-    {cardSuit: 'spade', value: '9', color: 'black'},
-    {cardSuit: 'spade', value: '10', color: 'black'},
-    {cardSuit: 'spade', value: 'jack', color: 'black'},
-    {cardSuit: 'spade', value: 'queen', color: 'black'},
-    {cardSuit: 'spade', value: 'king', color: 'black'},
-    {cardSuit: 'spade', value: 'ace', color: 'black'},
-    {cardSuit: 'clubs', value: '6', color: 'black'},
-    {cardSuit: 'clubs', value: '7', color: 'black'},
-    {cardSuit: 'clubs', value: '8', color: 'black'},
-    {cardSuit: 'clubs', value: '9', color: 'black'},
-    {cardSuit: 'clubs', value: '10', color: 'black'},
-    {cardSuit: 'clubs', value: 'jack', color: 'black'},
-    {cardSuit: 'clubs', value: 'queen', color: 'black'},
-    {cardSuit: 'clubs', value: 'king', color: 'black'},
-    {cardSuit: 'clubs', value: 'ace', color: 'black'},
-    {value: 'joker'},
-    {value: 'joker'}
-];
-
-// - знайти піковий туз
-let findSpadeAce = gameCards.filter((item) => {
-    if (item.cardSuit === `spade` && item.value === `ace`){
-        return console.log(item);
-    }
-});
-
-// - всі шістки
-let findSix2 = gameCards.filter((item) => item.value === `6`)
-console.log(findSix2);
-
-// - всі червоні карти
-
-let findRedCard = gameCards.filter((item) => item.color === `red`);
-console.log(findRedCard);
-
-// - всі буби
-
-let findDiamond = gameCards.filter((item) => item.cardSuit === `diamond`);
-console.log(findDiamond);
-
-// - всі трефи від 9 та більше
-
-let filterClubs = gameCards.filter((item) => {
-    if (item.cardSuit === `clubs` && item.value !== `6` && item.value !== `7` && item.value !== `8`){
-        return item;
-    }
-});
-console.log(filterClubs);
+// let gameCards = [
+//     {cardSuit: 'heart', value: '6', color: 'red'},
+//     {cardSuit: 'heart', value: '7', color: 'red'},
+//     {cardSuit: 'heart', value: '8', color: 'red'},
+//     {cardSuit: 'heart', value: '9', color: 'red'},
+//     {cardSuit: 'heart', value: '10', color: 'red'},
+//     {cardSuit: 'heart', value: 'jack', color: 'red'},
+//     {cardSuit: 'heart', value: 'queen', color: 'red'},
+//     {cardSuit: 'heart', value: 'king', color: 'red'},
+//     {cardSuit: 'heart', value: 'ace', color: 'red'},
+//     {cardSuit: 'diamond', value: '6', color: 'red'},
+//     {cardSuit: 'diamond', value: '7', color: 'red'},
+//     {cardSuit: 'diamond', value: '8', color: 'red'},
+//     {cardSuit: 'diamond', value: '9', color: 'red'},
+//     {cardSuit: 'diamond', value: '10', color: 'red'},
+//     {cardSuit: 'diamond', value: 'jack', color: 'red'},
+//     {cardSuit: 'diamond', value: 'queen', color: 'red'},
+//     {cardSuit: 'diamond', value: 'king', color: 'red'},
+//     {cardSuit: 'diamond', value: 'ace', color: 'red'},
+//     {cardSuit: 'spade', value: '6', color: 'black'},
+//     {cardSuit: 'spade', value: '7', color: 'black'},
+//     {cardSuit: 'spade', value: '8', color: 'black'},
+//     {cardSuit: 'spade', value: '9', color: 'black'},
+//     {cardSuit: 'spade', value: '10', color: 'black'},
+//     {cardSuit: 'spade', value: 'jack', color: 'black'},
+//     {cardSuit: 'spade', value: 'queen', color: 'black'},
+//     {cardSuit: 'spade', value: 'king', color: 'black'},
+//     {cardSuit: 'spade', value: 'ace', color: 'black'},
+//     {cardSuit: 'clubs', value: '6', color: 'black'},
+//     {cardSuit: 'clubs', value: '7', color: 'black'},
+//     {cardSuit: 'clubs', value: '8', color: 'black'},
+//     {cardSuit: 'clubs', value: '9', color: 'black'},
+//     {cardSuit: 'clubs', value: '10', color: 'black'},
+//     {cardSuit: 'clubs', value: 'jack', color: 'black'},
+//     {cardSuit: 'clubs', value: 'queen', color: 'black'},
+//     {cardSuit: 'clubs', value: 'king', color: 'black'},
+//     {cardSuit: 'clubs', value: 'ace', color: 'black'},
+//     {value: 'joker'},
+//     {value: 'joker'}
+// ];
+//
+// // - знайти піковий туз
+// let findSpadeAce = gameCards.filter((item) => {
+//     if (item.cardSuit === `spade` && item.value === `ace`){
+//         return console.log(item);
+//     }
+// });
+//
+// // - всі шістки
+// let findSix2 = gameCards.filter((item) => item.value === `6`)
+// console.log(findSix2);
+//
+// // - всі червоні карти
+//
+// let findRedCard = gameCards.filter((item) => item.color === `red`);
+// console.log(findRedCard);
+//
+// // - всі буби
+//
+// let findDiamond = gameCards.filter((item) => item.cardSuit === `diamond`);
+// console.log(findDiamond);
+//
+// // - всі трефи від 9 та більше
+//
+// let filterClubs = gameCards.filter((item) => {
+//     if (item.cardSuit === `clubs` && item.value !== `6` && item.value !== `7` && item.value !== `8`){
+//         return item;
+//     }
+// });
+// console.log(filterClubs);
 
