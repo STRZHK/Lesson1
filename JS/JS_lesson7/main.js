@@ -194,6 +194,7 @@ let cinderella4 = new Cinderella ( `Polka`, 31, 48);
 let cinderella5 = new Cinderella ( `Karina`, 27, 41);
 let cinderella6 = new Cinderella ( `Mustafa`, 20, 38);
 
+
 let cinderellaList = [];
 let fn = (...girl) => cinderellaList.push(...girl);
 fn (cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6);
