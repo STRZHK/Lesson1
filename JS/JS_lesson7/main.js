@@ -57,7 +57,7 @@
 // const client1 = new Client (26, `Sasha`, `Stryzhak`, `strzhk@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`, `product 3`]);
 // const client2 = new Client (2, `Andrii`, `Sterog`, `rejgor@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`]);
 // const client3 = new Client (3, `Pasha`, `Sgoihroi`, `soejgp4j@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`, `product 3`, `product 4`]);
-// const client4 = new Client (42, `Yarko`, `Hoejf`, `grjp4@gmail.com`, 38063636363, [`prodcut 1`]);
+// const client4 = new Client (42, `Yarko`, `Hoejf`, `grjp4@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`, `product 3`, `product 4`, `product 5`, `product 6`, `product 7`, `product 8`, `product 9`]);
 // const client5 = new Client (5, `Nastya`, `Kodihwih`, `oopjpwojg@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`, `product 3`]);
 // const client6 = new Client (6, `Lilia`, `Pvroej`, `wejgopw@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`, `product 3`, `product 4`, `product 5`]);
 // const client7 = new Client (17, `Luiza`, `Perhgieur`, `epgojp@gmail.com`, 38063636363, [`prodcut 1`, `prodcut 2`, `product 3`]);
@@ -113,22 +113,22 @@
 //     this.increaseMaxSpeed = function (newSpeed){
 //     return this.MaxSpeed += newSpeed
 // }
-//     this.increaseMaxSpeed(200)
+//     this.increaseMaxSpeed(20)
 //
 //     this.changeYear = function (newValue) {
 //     this.year = newValue;
 // }
-//     this.changeYear(2012)
+//     this.changeYear(2022)
 //
-//     this.addDriver = function (Driver){
-//     this.driver1 = Driver;
+//     this.addDriver = function (addNewDriver){
+//     this.driver1 = addNewDriver;
 // }
-//     let Driver = {
+//     let addNewDriver = {
 //     name: `Sanshos`,
 //     age: 23,
 //     status: `free`
 // }
-//     this.addDriver(Driver)
+//     this.addDriver(addNewDriver)
 //
 // }
 // let carTest = new Car (`s`, `Tesla`, 2022 , 220,10);
@@ -164,13 +164,13 @@
 // }
 // }
 // let carTest = new Car (`s`, `Tesla`, 2022 , 220,10);
-
+//
 // carTest.drive()
 // carTest.info()
-// console.log(carTest.increaseMaxSpeed(50));
+// console.log(carTest.increaseMaxSpeed(2000));
 // // console.log(carTest);
-// carTest.changeYear(2010)
-
+// carTest.changeYear(22022)
+//
 // let driver = {
 //     name: `Sanshos`,
 //     age: 23,
@@ -181,37 +181,37 @@
 // console.log(carTest);
 
 
-class Cinderella {constructor (name, age, size){
-    this.name = name
-    this.age = age
-    this.size = size
-}}
-
-let cinderella1 = new Cinderella ( `Luiza`, 21, 28);
-let cinderella2 = new Cinderella ( `Marta`, 22, 31);
-let cinderella3 = new Cinderella ( `Nata`, 19, 33);
-let cinderella4 = new Cinderella ( `Polka`, 31, 48);
-let cinderella5 = new Cinderella ( `Karina`, 27, 41);
-let cinderella6 = new Cinderella ( `Mustafa`, 20, 38);
-
-
-let cinderellaList = [];
-let fn = (...girl) => cinderellaList.push(...girl);
-fn (cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6);
-console.log(cinderellaList);
-
-let price = {
-    name: `Sasha`,
-    age: 23,
-    size: 28
-}
-console.log(price);
-
-let findSize = (arr, prince) => {
-    for (const arrElement of arr) {
-        if (arrElement.size === prince.size){
-            return arrElement
-        }
-    }
-}
-console.log(findSize(cinderellaList, price));
+// class Cinderella {constructor (name, age, size){
+//     this.name = name
+//     this.age = age
+//     this.size = size
+// }}
+//
+// let cinderella1 = new Cinderella ( `Luiza`, 21, 28);
+// let cinderella2 = new Cinderella ( `Marta`, 22, 31);
+// let cinderella3 = new Cinderella ( `Nata`, 19, 33);
+// let cinderella4 = new Cinderella ( `Polka`, 31, 48);
+// let cinderella5 = new Cinderella ( `Karina`, 27, 41);
+// let cinderella6 = new Cinderella ( `Mustafa`, 20, 38);
+//
+//
+// let cinderellaList = [];
+// let fn = (...girl) => cinderellaList.push(...girl);
+// fn (cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6);
+// console.log(cinderellaList);
+//
+// let prince = {
+//     name: `Sasha`,
+//     age: 23,
+//     size: 28
+// }
+// console.log(prince);
+//
+// let findSize = (arr, prince) => {
+//     for (const arrElement of arr) {
+//         if (arrElement.size === prince.size){
+//             return arrElement
+//         }
+//     }
+// }
+// console.log(findSize(cinderellaList, prince));
