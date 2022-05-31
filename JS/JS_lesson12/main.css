@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 180px;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.item:hover {
+    background: #d8e4ef;
+    transition: .5s;
+    transform: rotateY(10grad);
+}
+
+.item h3 {
+    margin: 0;
+    height: 25px;
+}
+
+.item h4 {
+    height: 30px;
+    width: 90%;
+}
