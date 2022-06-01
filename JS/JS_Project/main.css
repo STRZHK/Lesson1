@@ -1,0 +1,16 @@
+h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button {
+    background-color: rgba(246,210,60,0.17);
+    font-size: large;
+}

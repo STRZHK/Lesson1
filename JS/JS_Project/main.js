@@ -8,7 +8,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         content.classList.add(`content`);
         content.innerHTML = `
         <h3>ID: ${item.id}</h3>
-        <h4>Title: ${item.name}</h4>`;
+        <h4>Name: ${item.name}</h4>`;
 
         let btn = document.createElement(`button`);
         btn.classList.add(`btn`);
@@ -16,6 +16,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
 
         btn.onclick = (e) => {
             e.preventDefault();
+            localStorage.setItem('id', item.id);
             location.href = "user-details.html";
         }
 
