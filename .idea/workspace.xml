@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="Stryzhak_Project">
+      <change afterPath="$PROJECT_DIR$/JS/JS_Project/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29wfw5R5R0GaQVWCSOCPr5A8296" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="" />
+      <created>1654029303787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654029303787</updated>
+      <workItem from="1654029304908" duration="302000" />
+      <workItem from="1654029622489" duration="13000" />
+      <workItem from="1654070233483" duration="8892000" />
+      <workItem from="1654079268584" duration="43000" />
+      <workItem from="1654089953084" duration="4045000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1654029528807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654029528807</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Stryzhak_Project">
+      <created>1654079299949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079299949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="Stryzhak_Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stryzhak_Project" />
+  </component>
+</project>
