@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="Stryzhak_Project">
-      <change afterPath="$PROJECT_DIR$/JS/JS_Project/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/index.html" afterDir="false" />
+    <list default="true" id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="Stryzhak_Project.new">
+      <change afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JS_Project/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user.js" afterDir="false" />
@@ -34,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +58,8 @@
       <workItem from="1654029622489" duration="13000" />
       <workItem from="1654070233483" duration="8892000" />
       <workItem from="1654079268584" duration="43000" />
-      <workItem from="1654089953084" duration="4045000" />
+      <workItem from="1654089953084" duration="4251000" />
+      <workItem from="1654154756881" duration="9059000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654029528807</created>
@@ -71,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654079299949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stryzhak_Project">
+      <created>1654114037857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654114037857</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Stryzhak_Project.new">
+      <created>1654114215116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654114215116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Stryzhak_Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stryzhak_Project" />
+    <MESSAGE value="Stryzhak_Project.new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stryzhak_Project.new" />
   </component>
 </project>

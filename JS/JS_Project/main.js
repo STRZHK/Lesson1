@@ -1,4 +1,5 @@
 const conteiner = document.createElement(`div`);
+conteiner.classList.add(`conteiner`)
 
 fetch(`https://jsonplaceholder.typicode.com/users`)
 .then(response => response.json())
@@ -8,7 +9,8 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         content.classList.add(`content`);
         content.innerHTML = `
         <h3>ID: ${item.id}</h3>
-        <h4>Name: ${item.name}</h4>`;
+        <h4>Name: ${item.name}</h4>
+`;
 
         let btn = document.createElement(`button`);
         btn.classList.add(`btn`);
@@ -22,7 +24,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
 
 
         conteiner.appendChild(content);
-        conteiner.appendChild(btn);
+        content.appendChild(btn);
 
     }})
 
