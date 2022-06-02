@@ -45,18 +45,24 @@ for (const buttonBackElement of buttonBack) {
 
 
 
-fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
-    .then(response => response.json())
-    .then(value => {
-        let postBtn = document.getElementsByClassName(`postBtn`);
-        for (const item of postBtn) {
-            item.onclick = () => {
-                let divtitle = document.createElement(`div`);
-                divtitle.innerText = `${value}`;
 
-            }
-        }
+let postBtn = document.getElementsByClassName(`postBtn`);
+for (const button of postBtn) {
+    button.onclick = () => {
+        fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
+            .then(response => response.json())
+            .then(value => {
+                for (const element of value) {
+                    let postDiv = document.createElement(`div`);
+                    postDiv.innerHTML = `<li>${element.title}</li>`
+                    document.body.appendChild(postDiv)
 
-    })
+                    let btnPostUser = document.createElement(`button`);
+                    btnPostUser.classList.add(`btnPostUser`);
+                    btnPostUser.innerText = `Post details`;
+                    postDiv.appendChild(btnPostUser);
+                }})
+    }
+}
 
 
