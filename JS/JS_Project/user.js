@@ -4,6 +4,7 @@ const id = localStorage.getItem('id');
     fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         .then(response => response.json())
         .then(item => {
+            console.log(item);
             let content = document.createElement(`div`);
             content.classList.add(`content`);
             content.innerHTML = `
@@ -14,7 +15,7 @@ const id = localStorage.getItem('id');
         <h4>Company:</h4>
                 <li>Name: ${item.company.name}</li>
                 <li>Bs: ${item.company.bs}</li>
-                <li>catchPhrase: ${item.catchPhrase}</li>
+                <li>catchPhrase: ${item.company.catchPhrase}</li>
 
         <h4>Website: ${item.website}</h4>
         <h4>Address:</h4>
@@ -52,15 +53,26 @@ for (const button of postBtn) {
         fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
             .then(response => response.json())
             .then(value => {
+                let postConteiner = document.createElement(`div`);
+                postConteiner.innerHTML = `<br><h2>Posts of User</h2>`;
                 for (const element of value) {
                     let postDiv = document.createElement(`div`);
-                    postDiv.innerHTML = `<li>${element.title}</li>`
-                    document.body.appendChild(postDiv)
+                    postDiv.innerHTML = `<hr><li>${element.title}</li>`
+                    postConteiner.appendChild(postDiv);
 
                     let btnPostUser = document.createElement(`button`);
                     btnPostUser.classList.add(`btnPostUser`);
                     btnPostUser.innerText = `Post details`;
                     postDiv.appendChild(btnPostUser);
+
+                    btnPostUser.onclick = (e) => {
+                        e.preventDefault();
+                        localStorage.setItem('id', element.id);
+                        location.href = "post-details.html";
+                    }
+
+                    document.body.appendChild(postConteiner);
+
                 }})
     }
 }

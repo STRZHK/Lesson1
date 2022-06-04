@@ -1,29 +1,46 @@
 h3 {
     font-family: "Lucida Console", "Courier New", monospace;
+    height: 20px;
 }
-
 h4 {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-li {
-    font-family: "Lucida Console", "Courier New", monospace;
+.conteiner {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 7%;
+    flex-wrap: wrap;
+}
+
+.content {
+    position: relative;
+    width: 190px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .btn{
-    position: relative;
     background-color: black;
     border-radius: 4em;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     padding: 0.8em 1.8em;
-    cursor:pointer;
     user-select:none;
     text-align: center;
     text-decoration: none;
-    transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
     margin-left: 20px;
+    box-sizing: border-box;
+    height: 40px;
 }
 
 .btn:hover {
@@ -59,25 +76,9 @@ li {
     top: 1px;
 }
 
-.content {
-    width: 180px;
-    height: 150px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid darkgrey;
-    border-radius: 15px;
+.btnDiv {
+    height: 40%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
+    align-content: end;
 }
 
-.conteiner {
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    margin: 7%;
-    flex-wrap: wrap;
-}

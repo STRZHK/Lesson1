@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="Stryzhak_Project.new">
+      <change afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user.js" afterDir="false" />
@@ -56,7 +62,9 @@
       <workItem from="1654079268584" duration="43000" />
       <workItem from="1654089953084" duration="4251000" />
       <workItem from="1654154756881" duration="9308000" />
-      <workItem from="1654169558025" duration="1979000" />
+      <workItem from="1654169558025" duration="2214000" />
+      <workItem from="1654174887484" duration="233000" />
+      <workItem from="1654335389088" duration="9187000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654029528807</created>
@@ -93,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654164347609</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Stryzhak_Project.new">
+      <created>1654171768094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654171768094</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

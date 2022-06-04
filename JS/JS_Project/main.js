@@ -9,12 +9,13 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         content.classList.add(`content`);
         content.innerHTML = `
         <h3>ID: ${item.id}</h3>
-        <h4>Name: ${item.name}</h4>
+        <h4>${item.name}</h4>
 `;
-
+        let btnDiv = document.createElement(`div`);
+        btnDiv.classList.add(`btnDiv`);
         let btn = document.createElement(`button`);
         btn.classList.add(`btn`);
-        btn.innerText = `More details`
+        btn.innerText = `About User`
 
         btn.onclick = (e) => {
             e.preventDefault();
@@ -23,8 +24,9 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         }
 
 
+        btnDiv.appendChild(btn);
+        content.appendChild(btnDiv);
         conteiner.appendChild(content);
-        content.appendChild(btn);
 
     }})
 
