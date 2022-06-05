@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="Stryzhak_Project.new">
-      <change afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.css" afterDir="false" />
+    <list default="true" id="8c08a4f3-473a-46cc-8eba-9289ceeee3f4" name="Changes" comment="Stryzhak_Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/JS_Project/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/JS_Project/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/post-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/JS_Project/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/JS_Project/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,8 @@
       <workItem from="1654169558025" duration="2214000" />
       <workItem from="1654174887484" duration="233000" />
       <workItem from="1654335389088" duration="9187000" />
+      <workItem from="1654345955143" duration="19000" />
+      <workItem from="1654418109761" duration="1268000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654029528807</created>
@@ -108,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654171768094</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Stryzhak_Project">
+      <created>1654345966848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654345966848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,8 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <MESSAGE value="Stryzhak_Project" />
     <MESSAGE value="Stryzhak_Project.new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stryzhak_Project.new" />
+    <MESSAGE value="Stryzhak_Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stryzhak_Project" />
   </component>
 </project>

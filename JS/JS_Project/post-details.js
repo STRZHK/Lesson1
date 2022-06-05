@@ -3,29 +3,37 @@ buttonBack.innerText = `Back to start page`
 buttonBack.onclick = () => {
     location.href = "index.html"
 }
-document.body.appendChild(buttonBack)
+let buttonBackDiv = document.getElementsByClassName(`buttonBack`);
+for (const item of buttonBackDiv) {
+    item.appendChild(buttonBack)
+}
 
-const container = document.createElement(`div`);
-container.classList.add(`postDetails`);
-container.style.padding = `10px`;
+
+let container = document.createElement(`div`);
+container.classList.add(`container`);
+
+let getMainContent = document.getElementsByClassName(`mainContent`);
 
 const id = localStorage.getItem('id');
-console.log(id);
 fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
     .then(response => response.json())
     .then(item => {
         let content = document.createElement(`div`);
         content.classList.add(`content`);
+
         content.innerHTML = `
         <h3><b>ID:</b> ${item.id}</h3>
         <h4>Title: ${item.title}</h4>
         <h4>Body: ${item.body}</h4>
         <br>
 `;
-        container.appendChild(content);
-        document.body.appendChild(container);
-
+        container.appendChild(content)
     });
+
+for (const idElement of getMainContent) {
+    idElement.appendChild(container);
+}
+
 
 fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
     .then(response => response.json())
@@ -47,7 +55,6 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
             }
     });
 
-document.getElementById("content").firstElementChild.appendChild(`content`);
 
 
 
