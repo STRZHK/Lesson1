@@ -51,9 +51,16 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
         <hr>
 `;
                 commnetsDiv.appendChild(postComments);
-                document.body.appendChild(commnetsDiv);
+                // document.body.appendChild(commnetsDiv);
+
+                let comments = document.getElementsByClassName(`comments`);
+                for (const item of comments) {
+                    item.appendChild(commnetsDiv);
+                }
             }
     });
+
+
 
 
 
