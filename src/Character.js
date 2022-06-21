@@ -4,9 +4,9 @@ export default function Character(props){
 
     return(
     <div>
-        <h2>{name}</h2>
-        <p>{desc}</p>
-        <img src={picture} alt="bart"/>
+         <h2>{name}</h2>
+         <p>{desc}</p>
+         <img src={picture} alt="bart"/>
     </div>
 )
 }

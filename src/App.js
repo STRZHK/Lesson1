@@ -23,6 +23,7 @@ function App() {
                    desc={'Abraham Jebediah "Abe" Simpson II, commonly known as Grampa Simpson or simply Grampa, (born 1902 in 1989; 1935 in 2022) is a major character in The Simpsons and a supporting character in The Simpsons Movie. '}
                    picture={'https://static.wikia.nocookie.net/simpsons/images/a/a9/Abraham_Simpson.png/'}/>
 
+
     </div>
   );
 }
